@@ -34,7 +34,7 @@ Discord Bot開発、外部API連携、SQLiteによるデータ保存、定期処
 
 ## 利用イメージ
 
-![登録・一覧・自動通知のデモ](docs/demo.svg)
+![登録・一覧・自動通知のデモ](docs/demo.png)
 
 画像は2026年9月4日の実動作をもとに、個人情報を除き、表示を整理した再現図です。実際の画面そのものではありません。画像内の価格は動作確認時の値であり、現在価格ではありません。以下のテキストは操作例です。
 
@@ -202,7 +202,8 @@ discord-price-alert-bot/
 ├── database.py            # SQLite操作
 ├── logic.py               # 価格到達の判定ロジック
 ├── config.py              # 環境変数の読み込み
-├── docs/demo.svg          # 個人情報を除いたデモ画像
+├── docs/demo.png          # 表示用デモ画像（フォントを固定）
+├── docs/demo.svg          # デモ画像の編集用データ
 ├── tests/
 │   ├── test_bot_logic.py
 │   └── test_database.py

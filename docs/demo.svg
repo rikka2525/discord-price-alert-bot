@@ -2,16 +2,16 @@
   <title id="title">Discord Price Alert Bot 動作デモ</title>
   <desc id="desc">登録、一覧表示、自動通知、通知後の削除を、実際の確認結果から個人情報なしで再現。</desc>
   <rect width="1000" height="740" rx="20" fill="#171a23"/>
-  <g font-family="Segoe UI, Meiryo, sans-serif" fill="#eef0f7">
+  <g font-family="Meiryo" fill="#eef0f7">
     <text x="40" y="55" font-size="28" font-weight="700">Discord Price Alert Bot</text>
     <text x="40" y="88" font-size="16" fill="#b4bfd3">登録 → 定期チェック → 条件到達で通知</text>
     <rect x="32" y="115" width="936" height="133" rx="12" fill="#242938"/>
     <text x="54" y="148" font-size="17" fill="#a7b7ff">01 /register · bitcoin · $1.00 以上</text>
-    <text x="54" y="185" font-size="21" font-weight="700">通知 #1 を登録しました。</text>
+    <text x="54" y="185" font-size="21" font-weight="700">登録しました（通知番号：1）</text>
     <text x="54" y="220" font-size="18">現在価格: $80,840.00</text>
     <rect x="32" y="263" width="936" height="105" rx="12" fill="#242938"/>
     <text x="54" y="297" font-size="17" fill="#a7b7ff">02 /list · 登録中の価格通知</text>
-    <text x="54" y="337" font-size="21">#1 bitcoin: $1.00 以上</text>
+    <text x="54" y="337" font-size="21">通知番号：1　bitcoin: $1.00 以上</text>
     <rect x="32" y="383" width="936" height="153" rx="12" fill="#303027" stroke="#bfa04b"/>
     <text x="54" y="417" font-size="17" fill="#f3d477">03 定期チェックで条件到達</text>
     <text x="54" y="456" font-size="23" font-weight="700">@demo-user 価格アラート</text>
